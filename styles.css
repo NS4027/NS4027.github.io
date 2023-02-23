@@ -5,21 +5,39 @@ html{
     background: rgb(253, 254, 246);
 }
 
-.top-row-container{
-    display:flex;
-    background-color: rgb(1, 146, 8);
-    gap: 100px;
-    padding-left: 18px;
-    padding-right:18px;
-    /* flex: 1; */
-}
 
-ul {
+ul.Horizontal-nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    float:right;
+    top: 0;
+}
+  
+li {
+    float: left;
+    border-right: 1px solid black;
+  }
+  
+li a {
     display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #54e085;
+  }
+  
+.active {
+    background-color: #04AA6D;
+  }
+
+.title-of-page{
+    display:flex
 }
