@@ -16,6 +16,10 @@ ul.Horizontal-nav-bar {
     float:right;
     top: 0;
 }
+
+.max-height-for-nav-bar{
+  height: 40px;
+}
   
 li {
     float: left;
@@ -39,5 +43,18 @@ li a:hover:not(.active) {
   }
 
 .title-of-page{
-    display:flex
+    display:flex;
+    background-color: #54e085;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+  font-size: 60px;
+}
+
+.body-text{
+  border: 2px solid red;
+  border-radius: 5px;
+  
 }
