@@ -69,10 +69,12 @@ h1{
 }
 
 
-img{
+.hover-shadow{
   padding: 10px;
-  width: 45%;
-  height: 530px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
 }
 
@@ -141,4 +143,13 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
