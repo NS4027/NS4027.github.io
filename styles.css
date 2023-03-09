@@ -153,3 +153,53 @@ img.hover-shadow {
   text-decoration: none;
   border-radius: 50%;
 }
+
+.h2-font{
+  text-align: center;
+}
+
+video{
+  display:block;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+
+#wrapper { 
+  width: 920px; 
+  height: auto; 
+  margin: 0 auto;
+} 
+#train1 { 
+  width: 47.5%; 
+  height: 300px; 
+  float: left; 
+  margin-right: 5%;
+} 
+
+#train2 { 
+  width: 47.5%; 
+  height: 300px; 
+  float: left; 
+}
+
+.clear{
+  clear: both;
+}
+
+@media (max-width:767px) {
+  #wrapper{
+      width: 100%;
+      height: auto;
+  }
+  #train1 {
+      width: 100%;
+      height: auto;
+      float: none;
+  }
+  #train2 {
+      width: 100%;
+      height: auto;
+      float: none;
+  }
+}
